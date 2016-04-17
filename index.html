@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>赵宇翔的简历</title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/font-awesome-4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+	<script type="text/javascript" src="scripts/jquery-2.2.3.js"></script>
+</head>
+<body>
+	<header>
+		<ul>
+			<li>简介</li>
+			<li>技能</li>
+			<li>教育背景</li>
+			<li>工作经历</li>
+			<li>了解更多</li>
+		</ul>
+	</header>
+	<main>
+	<div id="home" class="page">
+		<img src="headpic.jpg" alt="一寸照" />
+		<h1>赵宇翔</h1>
+		<p>聪明在于勤奋，天才在于积累。</p>
+		<h2>前端工程师</h2>
+		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+	</div>
+	<div id="skills" class="page">
+		<h1>擅长技术</h1>
+		<div>
+			<div class="skillname">HTML</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-success" style="width:90%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">HTML5</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-danger" style="width:50%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">CSS</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-info" style="width:85%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">CSS3</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-warning" style="width:60%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">LESS</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-success" style="width:95%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">Bootstrap</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-danger" style="width:44%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">JavaScript</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-warning" style="width:80%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">JQuery</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-info" style="width:85%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">PhotoShop切图</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-success" style="width:99%"></div>
+			</div>
+		</div>
+		<div>
+			<div class="skillname">PHP</div>
+			<div class="progress progress-striped active">
+				<div class="progress-bar progress-bar-danger" style="width:33%"></div>
+			</div>
+		</div>
+	</div>
+	<div id="edu" class="page">
+		<h1>教育背景</h1>
+				<p>聪明在于勤奋，天才在于积累。</p>
+		<h2>前端工程师</h2>
+		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+	</div>
+	<div id="edu" class="page">
+		<h1>工作经历</h1>
+				<p>聪明在于勤奋，天才在于积累。</p>
+		<h2>前端工程师</h2>
+		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+	</div>
+	<div id="edu" class="page">
+		<h1>了解更多</h1>
+				<p>聪明在于勤奋，天才在于积累。</p>
+		<h2>前端工程师</h2>
+		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+	</div>
+	</main>
+<script type="text/javascript">
+$(function(){
+	function mouseoverEvent(index){
+		$("header ul li:eq("+index+")").click(function(){
+			$(this).css('backgroundColor','#2B62C1').siblings().css('backgroundColor','#00C4FF');
+			$("main>div:eq("+index+")").show()
+			.siblings().hide();
+		})
+	}
+	for (var i = 0; i < $("header ul li").length; i++) {
+		mouseoverEvent(i);
+	}
+})
+</script>
+</body>
+</html>

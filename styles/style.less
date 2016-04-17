@@ -1,0 +1,110 @@
+@fs: 14px;
+@c: #2B62C1;
+@c2: #00C4FF;
+@mc: 0 auto;
+html{
+	background-color: @c;
+}
+body{
+	font-family: Lato,"Microsoft YaHei",sans-serif;
+	font-size: @fs;
+	min-width: 300px;
+	position: relative;
+}
+header{
+	height: 40px;
+	background-color: @c2;
+	margin-bottom: 40px;
+	font-size: @fs * 1.5;
+	font-weight: bold;
+	ul{
+		margin: @mc;
+		overflow: hidden;
+		text-align: center;
+	}
+	li{
+		height: 40px;
+		display: inline-block;
+		list-style: none;
+		line-height: 40px;
+		color: white;
+		padding: 0 10px;
+		cursor: pointer;
+	}
+	li:first-child{
+		background-color: @c;
+	}
+	li:hover{
+		box-shadow: 0px 0px 5px white;
+	}
+}
+.page{
+	height:100%;
+	width:100%;
+	display: none;
+	margin: @mc;
+	text-align: center;
+	color: white;
+	position: absolute;
+	height: auto;
+	background-color: @c;
+	img{
+		margin-top: 20px;
+		max-width: 200px;
+		border-radius: 100%;
+		border: 10px solid @c2;
+	}
+	h1{
+		font-size: @fs * 4;
+		font-weight: bold;
+		margin: 20px 0;
+		text-shadow: 3px 3px @c2;
+	}
+	p{
+		font-size: @fs * 2;
+		color: @c2;
+	}
+	h2{
+		font-size: @fs * 2.5;
+		font-weight: bold;
+		margin: 20px 0;
+	}
+	a{
+		font-size: @fs * 2;
+		color: @c2;
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+}
+#home{
+	display: block;
+}
+#skills{
+	z-index: -999;
+	height: @fs * 3;
+	&>div{
+		margin: 20px 0;
+	}
+	div>div{
+		display: inline-block;
+	}
+	.skillname{
+		height: @fs * 3;
+		width: 160px;
+		line-height: @fs * 3;
+		font-size: @fs * 1.5;
+		background-color: @c2;
+		padding: 0 5px;
+		border-radius: 5px;
+		margin-right: 20px;
+		vertical-align: middle;
+	}
+	.progress{
+		width: 500px;
+		vertical-align: middle;
+		margin-bottom: 0;
+		height: @fs * 3;
+	}
+}
