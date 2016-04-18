@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/font-awesome-4.6.1/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
 	<script type="text/javascript" src="scripts/jquery-2.2.3.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="zhao.jpg"> 
 </head>
 <body>
 	<header>
@@ -25,7 +26,7 @@
 		<h1>赵宇翔</h1>
 		<p>聪明在于勤奋，天才在于积累。</p>
 		<h2>前端工程师</h2>
-		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>me@zhaoyuxiang.cn</a>
 	</div>
 	<div id="skills" class="page">
 		<h1>擅长技术</h1>
@@ -92,36 +93,22 @@
 	</div>
 	<div id="edu" class="page">
 		<h1>教育背景</h1>
-				<p>聪明在于勤奋，天才在于积累。</p>
-		<h2>前端工程师</h2>
-		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+		<h2>浙江科技学院 本科</h2>
+		<p>测控技术与仪器专业<br />2015年6月毕业<br />课程涉及计算机基础、数据结构与算法、C语言、网页制作<br />选修课题为微信公众平台的设计与开发<br />毕业设计为基于LabView的图形化编程与语音信号分析处理</p>
 	</div>
-	<div id="edu" class="page">
+	<div id="job" class="page">
 		<h1>工作经历</h1>
-				<p>聪明在于勤奋，天才在于积累。</p>
-		<h2>前端工程师</h2>
-		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+		<h2>杭州竣颐科技有限公司<span>2014.11~至今</span></h2>
+		<p>大学实习阶段所找的工作，毕业前与其签订三方协议，毕业后正式入职，将在人才市场转正定级后离职。<br />目前主要负责公司产品的售后，除了做好本职工作外一直在不停的学习充实自己的前端知识。</p>
 	</div>
-	<div id="edu" class="page">
+	<div id="more" class="page">
 		<h1>了解更多</h1>
-				<p>聪明在于勤奋，天才在于积累。</p>
-		<h2>前端工程师</h2>
-		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>　me@zhaoyuxiang.cn</a>
+		<h2><a href="http://zhaoyuxiang.cn" target="_blank">个人博客</a></h2>
+		<a href="http://weibo.com/zhaoyuxiang" target="_blank" title="赵宇翔的新浪微博"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+		<a href="https://github.com/Clark-Zhao" target="_blank" title="赵宇翔的GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+		<a href="mailto:me@zhaoyuxiang.cn" title="给我发送邮件"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 	</div>
 	</main>
-<script type="text/javascript">
-$(function(){
-	function mouseoverEvent(index){
-		$("header ul li:eq("+index+")").click(function(){
-			$(this).css('backgroundColor','#2B62C1').siblings().css('backgroundColor','#00C4FF');
-			$("main>div:eq("+index+")").show()
-			.siblings().hide();
-		})
-	}
-	for (var i = 0; i < $("header ul li").length; i++) {
-		mouseoverEvent(i);
-	}
-})
-</script>
+<script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>

@@ -76,6 +76,9 @@ main {
 #home {
   display: block;
 }
+#home i {
+  margin-right: 20px;
+}
 #skills > div {
   margin: 20px 0;
 }
@@ -98,4 +101,15 @@ main {
   vertical-align: middle;
   margin-bottom: 0;
   height: 42px;
+}
+#job span {
+  font-size: 28px;
+  color: #00c4ff;
+  display: inline-block;
+  margin-left: 20px;
+}
+#more a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 42px;
 }
