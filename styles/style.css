@@ -84,11 +84,11 @@ main {
 }
 #skills div > div {
   display: inline-block;
+  height: 28px;
 }
 #skills .skillname {
-  height: 42px;
   width: 160px;
-  line-height: 42px;
+  line-height: 28px;
   font-size: 21px;
   background-color: #00c4ff;
   padding: 0 5px;
@@ -100,7 +100,6 @@ main {
   width: 500px;
   vertical-align: middle;
   margin-bottom: 0;
-  height: 42px;
 }
 #job span {
   font-size: 28px;
