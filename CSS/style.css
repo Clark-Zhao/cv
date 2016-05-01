@@ -1,0 +1,83 @@
+html,body,div,h1,h2,p,a,img,span{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+	text-align: center;
+}
+h1 {
+	color: white;
+	font-size: 3.5em;
+	font-weight: bold;
+	margin: 0.5em 0;
+	text-shadow: 3px 3px #00c4ff;
+}
+p {
+	margin: 5px 0;
+    font-size: 2em;
+    color: #00c4ff;
+}
+h2 {
+	color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+a {
+    font-size: 2em;
+    color: #00FFFF;
+    text-decoration: none;
+}
+a:hover{
+	color: white;
+}
+i{
+	display: inline-block;
+	margin: 0 10px;
+}
+.page1 img{
+	border: 10px solid #00c4ff;
+	border-radius: 50%;
+}
+.page1 i{
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.page3 p{
+	margin: 15px 0;
+}
+.page3 a{
+	font-size: 1em;
+}
+.page3 .more{
+	display: inline-block;
+	color: white;
+	font-size: 0.8em;
+	background: #00c4ff;
+	border-radius: 5px;
+	padding: 5px;
+}
+.page6 img{
+	display: inline-block;
+	margin-top: 10px;
+}
+.page6 .blog{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.page2 span{
+	display: inline-block;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+	margin: 10px;
+	background-color: #00c4ff;
+}
+.good span{
+	opacity: 0.9;
+}
+.familiar span{
+	opacity: 0.8;
+}
+.understand span{
+	opacity: 0.6;
+}

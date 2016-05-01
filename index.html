@@ -3,119 +3,71 @@
 <head>
 	<meta charset="UTF-8">
 	<title>赵宇翔的简历-前端工程师</title>
-	<meta name="description" content="赵宇翔的个人简历，前端开发工程师的个人简历">
-	<link rel="stylesheet" type="text/css" href="styles/reset.css">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link rel="stylesheet" type="text/css" href="styles/font-awesome-4.6.1/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-	<script type="text/javascript" src="scripts/jquery-2.2.3.js"></script>
-	<link rel="shortcut icon" type="image/x-icon" href="zhao.jpg"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="CSS/jquery.fullpage.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 <body>
-	<header>
-		<ul>
-			<li>简介</li>
-			<li>技能</li>
-			<li>教育背景</li>
-			<li>工作经历</li>
-			<li>了解更多</li>
-		</ul>
-	</header>
-	<main>
-	<div id="home" class="page">
-		<img src="headpic.png" alt="一寸照" />
-		<h1>赵宇翔</h1>
-		<p>聪明在于勤奋，天才在于积累。</p>
-		<h2>前端工程师</h2>
-		<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>me@zhaoyuxiang.cn</a>
-	</div>
-	<div id="skills" class="page">
-		<h1>擅长技术</h1>
-		<div>
-			<div class="skillname">HTML</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-success" style="width:90%"></div>
-			</div>
+	<div id="fullpage">
+		<div class="section page1">
+			<img src="images/avatar.png" alt="一寸照" />
+			<h1>赵宇翔</h1>
+			<p>聪明在于勤奋，天才在于积累。</p>
+			<h2>前端工程师</h2>
+			<a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i>me@zhaoyuxiang.cn</a>
 		</div>
-		<div>
-			<div class="skillname">HTML5</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-danger" style="width:50%"></div>
-			</div>
+		<div class="section page2">
+			<h1>擅长技术</h1>
+			<div class="master"><span>HTML</span><span>CSS</span><span>SCSS</span><span>LESS</span><span>切图</span></div>
+			<div class="good"><span>JavaScript</span><span>JQuery</span></div>
+			<div class="familiar"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span></div>
+			<div class="understand"><span>PHP</span></div>
 		</div>
-		<div>
-			<div class="skillname">CSS</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-info" style="width:85%"></div>
-			</div>
+		<div class="section page3">
+			<h1>项目经验</h1>
+			<p><a href="https://github.com/Clark-Zhao/baiduIFE2016spring" target="_blank">百度前端技术学院</a></p>
+			<p><a href="https://github.com/Clark-Zhao/bohu-jekyll-theme" target="_blank">Jekyll主题BoHu</a></p>
+			<p><a href="http://zhaoyuxiang.cn" target="_blank">个人网站</a></p>
+			<p><a class="more" href="https://github.com/Clark-Zhao" target="_blank">更多</a></p>
 		</div>
-		<div>
-			<div class="skillname">CSS3</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-warning" style="width:60%"></div>
-			</div>
+		<div class="section page4">
+			<h1>教育背景</h1>
+			<h2>浙江科技学院 本科</h2>
+			<p>测控技术与仪器专业</p>
+			<p>2015年6月毕业</p>
+			<p>课程涉及计算机基础、数据结构与算法、C语言、网页制作</p>
+			<p>选修课题为微信公众平台的设计与开发</p>
+			<p>毕业设计为基于LabView的图形化编程与语音信号分析处理</p>
 		</div>
-		<div>
-			<div class="skillname">SASS/SCSS</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-warning" style="width:60%"></div>
-			</div>
+		<div class="section page5">
+			<h1>工作经历</h1>
+			<h2>杭州竣颐科技有限公司<span>2014.11~至今</span></h2>
+			<p>大学实习阶段所找的工作，毕业前与其签订三方协议，毕业后正式入职<span style="display: none;">，将在人才市场转正定级后离职</span>。</p>
+			<p>目前主要负责公司产品的售后</p>
+			<p>除了做好本职工作外一直在不停的学习充实自己的前端知识。</p>
 		</div>
-		<div>
-			<div class="skillname">LESS</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-success" style="width:95%"></div>
-			</div>
-		</div>
-		<div>
-			<div class="skillname">Bootstrap</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-danger" style="width:44%"></div>
-			</div>
-		</div>
-		<div>
-			<div class="skillname">JavaScript</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-info" style="width:80%"></div>
-			</div>
-		</div>
-		<div>
-			<div class="skillname">JQuery</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-info" style="width:85%"></div>
-			</div>
-		</div>
-		<div>
-			<div class="skillname">PhotoShop切图</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-success" style="width:99%"></div>
-			</div>
-		</div>
-		<div>
-			<div class="skillname">PHP</div>
-			<div class="progress progress-striped active">
-				<div class="progress-bar progress-bar-danger" style="width:33%"></div>
-			</div>
+		<div class="section page6">
+			<h1>了解更多</h1>
+			<a href="http://zhaoyuxiang.cn" target="_blank" class="blog">个人博客</a><br />
+			<a href="https://github.com/Clark-Zhao" target="_blank" title="赵宇翔的GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+			<a href="http://weibo.com/zhaoyuxiang" target="_blank" title="赵宇翔的新浪微博"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+			<a href="http://twitter.com/zyx19936688" target="_blank" title="赵宇翔的新浪微博"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href="mailto:me@zhaoyuxiang.cn" title="给我发送邮件"><i class="fa fa-envelope" aria-hidden="true"></i></a><br />
+			<img src="images/weixin.jpg" alt="微信公众号" />
 		</div>
 	</div>
-	<div id="edu" class="page">
-		<h1>教育背景</h1>
-		<h2>浙江科技学院 本科</h2>
-		<p>测控技术与仪器专业<br />2015年6月毕业<br />课程涉及计算机基础、数据结构与算法、C语言、网页制作<br />选修课题为微信公众平台的设计与开发<br />毕业设计为基于LabView的图形化编程与语音信号分析处理</p>
-	</div>
-	<div id="job" class="page">
-		<h1>工作经历</h1>
-		<h2>杭州竣颐科技有限公司<span>2014.11~至今</span></h2>
-		<p>大学实习阶段所找的工作，毕业前与其签订三方协议，毕业后正式入职<span style="display: none;">，将在人才市场转正定级后离职</span>。<br />目前主要负责公司产品的售后，除了做好本职工作外一直在不停的学习充实自己的前端知识。</p>
-	</div>
-	<div id="more" class="page">
-		<h1>了解更多</h1>
-		<h2><a href="http://zhaoyuxiang.cn" target="_blank">个人博客</a></h2>
-		<a href="http://weibo.com/zhaoyuxiang" target="_blank" title="赵宇翔的新浪微博"><i class="fa fa-weibo" aria-hidden="true"></i></a>
-		<a href="https://github.com/Clark-Zhao" target="_blank" title="赵宇翔的GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
-		<a href="mailto:me@zhaoyuxiang.cn" title="给我发送邮件"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-	</div>
-	</main>
-<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="JS/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="JS/jquery.fullPage.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+    		$('#fullpage').fullpage({
+    			sectionsColor : ['#2b62c1','#2b62c1','#2b62c1','#2b62c1','#2b62c1','#2b62c1'],
+    			navigation: true,
+    			navigationTooltips: ['个人简介', '擅长技术', '项目经验', '教育背景', '工作经历', '了解更多'],
+    			continuousVertical: true,
+    		});
+		});
+	</script>
 </body>
 </html>
