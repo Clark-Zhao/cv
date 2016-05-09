@@ -25,11 +25,37 @@
 			<div class="understand"><span>PHP</span></div>
 		</div>
 		<div class="section page3">
-			<h1>项目经验</h1>
-			<p><a href="https://github.com/Clark-Zhao/baiduIFE2016spring" target="_blank">百度前端技术学院</a></p>
-			<p><a href="https://github.com/Clark-Zhao/bohu-jekyll-theme" target="_blank">Jekyll主题BoHu</a></p>
-			<p><a href="http://zhaoyuxiang.cn" target="_blank">个人网站</a></p>
-			<p><a class="more" href="https://github.com/Clark-Zhao" target="_blank">更多</a></p>
+			<div class="slide">
+				<h1>项目经验</h1>
+				<p><a href="https://github.com/Clark-Zhao/baiduIFE2016spring" target="_blank">百度前端技术学院<i class="fa fa-link" aria-hidden="true"></i></a></p>
+				<ul>
+					<li><a href="http://zhaoyuxiang.cn/baiduIFE2016spring/task1-7/" target="_blank">实现常见的技术产品官网的页面架构及样式布局</a></li>
+					<li><a href="http://zhaoyuxiang.cn/baiduIFE2016spring/task1-9/" target="_blank">使用HTML/CSS实现一个复杂页面</a></li>
+					<li><a href="http://zhaoyuxiang.cn/baiduIFE2016spring/task2-30/" target="_blank">多个表单项的动态校验</a></li>
+					<li><a href="http://zhaoyuxiang.cn/baiduIFE2016spring/smartblock2/" target="_blank">听指令的小方块</a></li>
+					<li><a href="http://zhaoyuxiang.cn/baiduIFE2016spring/task3-38/" target="_blank">UI组件之排序表格</a></li>
+					<li><a href="http://zhaoyuxiang.cn/baiduIFE2016spring/task3-43/" target="_blank">多功能相册之拼图布局</a></li>
+				</ul>
+			</div>
+			<div class="slide">
+			<p><a href="https://github.com/Clark-Zhao/bohu-jekyll-theme" target="_blank">Jekyll-Theme-BoHu<i class="fa fa-link" aria-hidden="true"></i></a></p>
+			<span>一款知乎风格的Jekyll主题。样式采用SCSS预编译，并在移动端有良好的兼容性。</span>
+			<img src="images/BoHu.png" alt="BoHu" />
+			</div>
+			<div class="slide">
+			<p><a href="http://zhaoyuxiang.cn" target="_blank">个人网站<i class="fa fa-link" aria-hidden="true"></i></a></p>
+			<span>坚持对自己的前端学习进行归纳总结，部分博文在简书发表并获得读者的肯定。维护网站，不定期追加新样式或新功能。</span>
+			<img src="images/website.png" alt="website" class="website" />
+			</div>
+			<div class="slide">
+			<p>个人简历</p>
+			<span>在线简历：基于JQuery的fullPage.js制作的一款简洁的全屏滚动翻页简历。</span>
+			<span>PDF简历：A4纸尺寸，排版清晰，信息全面，可供<a href="赵宇翔的简历-前端工程师.pdf" target="_blank">下载</a>。</span>
+			<img src="images/CVPDF.jpg" alt="CVPDF" class="CVPDF" />
+			</div>
+			<div class="slide">
+			<p><a class="more" href="https://github.com/Clark-Zhao" target="_blank">更多内容请移步GitHub</a></p>
+			</div>
 		</div>
 		<div class="section page4">
 			<h1>教育背景</h1>
@@ -50,6 +76,7 @@
 		<div class="section page6">
 			<h1>了解更多</h1>
 			<a href="http://zhaoyuxiang.cn" target="_blank" class="blog">个人博客</a><br />
+			<p><a href="赵宇翔的简历-前端工程师.pdf" class="download" target="_blank">下载简历</a></p>
 			<a href="https://github.com/Clark-Zhao" target="_blank" title="赵宇翔的GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
 			<a href="http://weibo.com/zhaoyuxiang" target="_blank" title="赵宇翔的新浪微博"><i class="fa fa-weibo" aria-hidden="true"></i></a>
 			<a href="http://twitter.com/zyx19936688" target="_blank" title="赵宇翔的新浪微博"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -65,7 +92,9 @@
     			sectionsColor : ['#2b62c1','#2b62c1','#2b62c1','#2b62c1','#2b62c1','#2b62c1'],
     			navigation: true,
     			navigationTooltips: ['个人简介', '擅长技术', '项目经验', '教育背景', '工作经历', '了解更多'],
-    			continuousVertical: true
+    			continuousVertical: true,
+    			slidesNavigation: true,
+    			controlArrowColor: "transparent"
     		});
 		});
 	</script>
