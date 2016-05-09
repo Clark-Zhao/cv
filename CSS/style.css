@@ -83,6 +83,9 @@ i{
 	max-height: 50%;
 	margin: 0 auto;
 }
+.page3 img.BoHu{
+	max-width: 80%;
+}
 .page3 img.CVPDF{
 	box-shadow: 0px 0px 5px;
 }
